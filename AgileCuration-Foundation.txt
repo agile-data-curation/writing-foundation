@@ -84,6 +84,22 @@ Our second activity is to gather case study data that illustrate extant practice
 
 3. Proposed design pattern process (Karl - 800-1000) - 
 
+The application of the concept of design patterns is based upon that whilch had been developed for object oriented software development [@gamma_design_1995], and extended into related domains [@daigneau_service_2011; @lasater_design_2010; @ackerman_patterns-based_2010; @schwinn_design_2005; @hohpe_enterprise_2003], for use in documenting *named* data curation *problems*, *solutions*, and *consequences* that provide *descriptions of generalized data components that are customized to solve a general design problem in a particular context* (adapted from [@gamma_design_1995, section 1.1]). 
+
+The conceptual model that the research team has developed for mapping research data curation functional requirements into design patterns represents a combination of specific research activities that have data-related components (as exemplified in Figure 1) and linkages between those components as envisioned by a model such as the *Open Archival Information System* (OAIS - [@book_reference_2012;@_iso_2012; @oclc_open_2014] - Figure 2). In particular, the research team is currently developing a model for collecting and synthesizing data curation case studies that can be used as exemplars for identifying existing design patterns or developing new ones that are relevant in data curation.
+
+![Intersection of Research Lifecycle [@_how_2014] and Data Curation Lifecycle Actions [@digital_curation_centre_dcc_dcc_nd] illustrating high-level research activities that involve data-related functions.](Research-DataLifecycleIntegration.png)
+
+The process that the research team proposed in support of the identification and, when needed, development of agile data curation design patterns consists of the following steps:
+
+1. Reach out to the research data curation community to seek specific research data problems for which effective solutions have been developed. [Note: add concept of *anti-patterns* using references from https://en.wikipedia.org/wiki/Anti-pattern as an entry point]
+2. From this compilation of case studies begin the development of a catalog of *common* problems and solutions from which candidate patterns can be identified
+3. Compile a catalog of existing design patterns against which the identified problems and solutions can be compared to identify opportunities for reuse of existing design patterns
+4. Develop RFC design pattern proposals for review and comment by the research data management community (e.g. RDA, ESIP Federation, IDCC participants, ...)
+5. Integrate feedback on proposed design patterns into final versions for publication. 
+
+ 
+
 
 # Conclusions
 
