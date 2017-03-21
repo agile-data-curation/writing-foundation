@@ -3,17 +3,18 @@
 # Pandoc metadata elements
 
 # this toggles the appropriate abstract rendering in the generated document. If it is commented out the the document will be rendered as a paper instead of a poster abstract or proposal
-- paper: true
-#- poster: true
+paper: true
+#poster: true
 
+# use for an IJDC submission
+document-class: ijdc-v9 # International Journal of Digital Curation
+document-options: paper # paper | article | editorial
 
-document:
-- class: ijdc-v9 # International Journal of Digital Curation
-  options: paper # paper | article | editorial
-#- class: idcc #International Digital Curation Conference
-#  options: "poster,17" # [research | practice | data | poster | demo | bof | workshop] , [15 | 16 | 17]
+# use for an IDCC submission
+#document-class: idcc #International Digital Curation Conference
+#document-options: "poster,17" # [research | practice | data | poster | demo | bof | workshop] , [15 | 16 | 17]
 
-# some generated elements are suppressed if this element is commented out. This is for double-blind peer review. 
+# some generated elements (authors, affiliation, correspondence) are suppressed if this element is commented out. This is for double-blind peer review. 
 # reviewed: yes
 
 title: Agile Data Curation as a Diversity of Practices Grounded in Shared Values and Principles

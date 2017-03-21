@@ -1,4 +1,4 @@
-\documentclass[$if(document.options)$$document.options$$endif$]{$if(document.class)$$document.class$$endif$}
+\documentclass[$if(document-options)$$document-options$$endif$]{$if(document-class)$$document-class$$endif$}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
@@ -6,9 +6,14 @@
 \usepackage{fixltx2e} % provides \textsubscript
 \usepackage{booktabs}
 \usepackage{dcolumn}
+\usepackage{longtable}
 
 \usepackage{biblatex}
 \bibliography{$biblio-files$}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
 
 $if(title)$
 \title[$if(short-title)$$short-title$$endif$]{$title$}
@@ -20,17 +25,19 @@ $if(date)$
 $endif$
 $endif$
 
+$if(reviewed)$
 $for(affil-author)$
-$for(affil-author.author.name)
+$for(affil-author.author)$
 \author{$affil-author.author.name$}
 $endfor$
 $if(affil-author.affiliation)$
-\affil{$author.affil$}
+\affil{$affil-author.affiliation$}
 $endif$
 $endfor$
 
-$if(correspondence)$
-\correspondence{$correspondence.name$, $correspondence.postal$. Email: \email{$correspondence.email$}}
+$for(correspondence)$
+\correspondence{$correspondence.name$, $correspondence.address$. Email: \email{$correspondence.email$}}
+$endfor$
 $endif$
 
 
@@ -41,13 +48,15 @@ $endif$
 
 $if(paper)$
 $if(abstract)$
-\begin{Abstract}
+\begin{abstract}
 $abstract$
-\end{Abstract}
+\end{abstract}
+$endif$
 $else$
 $if(abstract)$
 \section{Abstract}
 $abstract$
+$endif$
 $endif$
 
 $body$
