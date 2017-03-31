@@ -10,7 +10,7 @@ paper: true
 document-class: ijdc-v9 # International Journal of Digital Curation
 document-options: paper # paper | article | editorial
 
-# use for an IDCC submission
+# use for an IDCC submission (test)
 #document-class: idcc #International Digital Curation Conference
 #document-options: "poster,17" # [research | practice | data | poster | demo | bof | workshop] , [15 | 16 | 17]
 
