@@ -44,7 +44,7 @@ correspondence:
 # Conference paper submission date
 # date: 
 
-abstract: Current research data management and curation practices can be described as falling along a continuum between highly engineered systems and ad-hoc practices or nothing at all. In recognition of the increasing investment in and importance of research data as an asset for doing research, for evaluating current research results, and as a resource for new science, funding agencies, publishers and some research teams have instituted research data management practices. These practices are often aligned with a wide variety of data life cycle models that embody a circular process of activities that include creation, assessment, documentation, use, preservation, discovery and reuse. While these data lifecycle approaches are well aligned with the documentation and preservation of research data - particularly as they have been primarily developed by organizations with a mandate to provide for the preservation of data, this linear (or more appropriately cyclical) model does not necessarily focus on the level of effort required throughout the processes embodied in the lifecycle or the lowering of barriers to subsequent reuse. The agile data curation conceptual model outlined provides is proposed as a starting point for community consideration a core set of values, principles and in the long-run recommended practices in the form of research data management and [agile] curation design patterns that may be used to define project-specific activities that are likely to both meet the immediate needs of data producing research projects while also maximizing the net value of data produced by those projects for future research, education, and applications. *[This last sentence is the crux of the argument/paper.  I think though we left out a step. That is the design patterns support agile curation which reduces burden, yadda, yadda, which then supports projects and maximizes value.  I added for consideration the word [agile] before curation design patterns which address this in part.  However, does this need more?  Also, I could figure out how to put this in as a comment, so I inserted it this way.]*
+abstract: Current research data management and curation practices can be described as falling along a continuum between highly engineered systems and ad-hoc practices or nothing at all. In recognition of the increasing investment in and importance of research data as an asset for doing research, for evaluating current research results, and as a resource for new science, funding agencies, publishers and some research teams have instituted research data management practices. These practices are often aligned with a wide variety of data life cycle models that embody a circular process of activities that include creation, assessment, documentation, use, preservation, discovery and reuse. While these data lifecycle approaches are well aligned with the documentation and preservation of research data - particularly as they have been primarily developed by organizations with a mandate to provide for the preservation of data, this linear (or more appropriately cyclical) model does not necessarily focus on the level of effort required throughout the processes embodied in the lifecycle or the lowering of barriers to subsequent reuse. The agile data curation conceptual model outlined provides is proposed as a starting point for community consideration a core set of values, principles and in the long-run recommended practices in the form of research data management and [agile] curation design patterns that may be used to define project-specific activities that are likely to both meet the immediate needs of data producing research projects while also maximizing the net value of data produced by those projects for future research, education, and applications. <!--[This last sentence is the crux of the argument/paper.  I think though we left out a step. That is the design patterns support agile curation which reduces burden, yadda, yadda, which then supports projects and maximizes value.  I added for consideration the word [agile] before curation design patterns which address this in part.  However, does this need more?  Also, I could figure out how to put this in as a comment, so I inserted it this way.]-->
 
 
 ################################
@@ -68,39 +68,21 @@ The concept of *agile data curation* outlined in this paper represents an effort
 
 In response to this problem of under-design and with the increasing recognition of the value of research data products for assessment, replication, validation, and extension of research, a variety of requirements have been put in place by sponsors [@office_of_management_and_budget_omb_digital_2012;@office_of_management_and_budget_omb_memorandum_2013;@office_of_management_and_budget_omb_memorandum_2009;@obama_77_2012;@obama_executive_2013;@obama_transparency_2009] and publishers [@_availability_2016; @public_library_of_science_plos_data_2016 ] for planning for and executing effective data management, sharing, and curation. While these requirements have resulted in more explicit documentation of *plans* for data curation and management, it remains unclear what impact they are having on *practice*. 
 
-When considering the practice of research data management and curation the priorities (implicit or explicit) of the diverse participants in the process must be identified and addressed. The observations made by Greene and Meissner [-@greene_more_2005] relating to the backlog challenges faced by archivists "if we are going to effectively serve our users, we must adopt a much more ﬂexible conception of what it means to “process” a collection" [@greene_more_2005: pp. 233] can easily be applied to the challenges faced by researchers and data curators. In an environment of limited funding for research, the technical, semantic, and social challenges identified by Michener [-@michener_role_1999] in the context of research data related to forest ecosystem resources remain relevant today, as do the seven 'habits' that he recommended for effective information management:
+When considering the practice of research data management and curation the priorities (implicit or explicit) of the diverse participants in the process must be identified and addressed. The observations made by Greene and Meissner [-@greene_more_2005] relating to the backlog challenges faced by archivists: "if we are going to effectively serve our users, we must adopt a much more flexible conception of what it means to “process” a collection" [@greene_more_2005: pp. 233] can easily be applied to the challenges faced by researchers and data curators. In an environment of limited funding for research, the technical, semantic, and social challenges identified by Michener [-@michener_role_1999] in the context of research data related to forest ecosystem resources remain relevant today, as do the seven 'habits' that he recommended for effective information management:
 
->1. Allocate a reasonable percentage of research funding
->for long-term management of data and information
->generated by the research. In most organizations, data
->management is seriously under-funded, resulting in
->data losses and delays in translating data to
->information.
+>1. Allocate a reasonable percentage of research funding for *long-term management* of data and information generated by the research. In most organizations, data management is seriously under-funded, resulting in data losses and delays in translating data to information.
 >
->2. Develop and adhere to data and metadata standards
->and best use protocols.
+>2. Develop and adhere to data and metadata standards and best use protocols.
 >
->3. Provide funding for data rejuvenation (e.g., adding
->Global Positioning System fixes, i.e., latitude/longitude,
->to field sites) and rescue (e.g., convert paper records to
->digital format) to halt further data entropy.
+>3. Provide funding for *data rejuvenation* (e.g., adding Global Positioning System fixes, i.e., latitude/longitude, to field sites) and rescue (e.g., convert paper records to digital format) to halt further data entropy.
 >
->4. Routinely evaluate data utility, research objectives,
->and management needs, and reestablish priorities.
->Use this information to revise sampling programs
->(e.g., reduce effort in certain areas, add new 
->parameters) and to streamline data capture. 
+>4. *Routinely evaluate data utility, research objectives, and management needs, and reestablish priorities*. Use this information to revise sampling programs (e.g., reduce effort in certain areas, add new  parameters) and to streamline data capture. 
 >
->5. Coordinate software and systems development and 
->purchases with other agencies or departments to 
->eliminate duplication of effort and reduce expenditures 
->(i.e., take advantage of economies of scale). 
+>5. *Coordinate software and systems development* and purchases with other agencies or departments to  eliminate duplication of effort and reduce expenditures  (i.e., take advantage of economies of scale). 
 >
->6. Cooperate with other agencies, scientists, and the 
->private sector to establish and adopt data and metadata 
->standards, authority files, and thesauruses for data. [@michener_role_1999: pp 434] 
+>6. *Cooperate with other agencies, scientists, and the private sector* to establish and adopt data and metadata  standards, authority files, and thesauruses for data. 
 >
->7. Establish synthetic research as a top priority.
+>7. Establish synthetic research as a top priority. [@michener_role_1999: pp 434. Emphasis added.] 
 
 <!--[Do we want to have a paragraph here from the data creator perspective?  That is the widely held perspective that doing curation work is onerous and gets in the way of doing science, etc. Are there any cites we can dig up on this?  One that comes to mind is the data entropy one from Bill M.]-->
 
@@ -110,7 +92,9 @@ Given this context, the authors have (with contributions from participants in wo
 
 Figure 1 illustrates a number of the shared and different characteristics that have been identified that may be ascribed to the ends of the continuum between highly designed/engineered processes and ad-hoc processes in both software development and data curation. A common theme that has emerged in the discussions around this topic over the past two years has been that while the agile software development movement partially emerged in response to the observed shortcomings in the commonly employed, specification heavy, and long development cycle "waterfall" development model, the proposed agile data curation model is largely a response to ad-hoc data management practices that are frequently the norm for research projects - particularly small research projects for which there are not dedicated data management and curation resources, dark data in Heidorn's [-@heidorn_shedding_2008] terminology. While there are exemplars of highly successful  software development and data curation practices at all points along the continuum illustrated in Figure 1, the adoption of agile software development practices in the middle range of the continuum has allowed some projects to achieve success where they may have otherwise been unsuccessful, and likewise data curation activities that have successfully moved from the right end of the continuum towards the center have also provided measurable value to both the current projects that are creating the data and to future users of the data produced by those projects. It is these successful data curation projects that exemplify an emerging set of values,  principles and practices of agile data curation that provide the foundation for the design pattern activity of the research team that is described below. 
 
-![Illustration comparing software development and data curation activities along a continuum between *engineered* and *ad-hoc* highlighting a range of characteristics associated with with each activity, and the mid-point along the continuum where an agile approach can hopefully achieve a balance between the two extremes.](agileComparison-01.png){ width=5in }
+![Illustration comparing software development and data curation activities along a continuum between *engineered* and *ad-hoc* highlighting a range of characteristics associated with with each activity, and the mid-point along the continuum where an agile approach can hopefully achieve a balance between the two extremes.](agileComparison-01.png)
+
+
 
 # Methods (1000)
 
@@ -135,15 +119,11 @@ However, during our initial phases conceptualizing the research we came to reali
 
 3. Proposed design pattern process (Karl - 800-1000) - 
 
-<<<<<<< .merge_file_iRORRr
-The application of the concept of design patterns is based upon that which had been developed for object oriented software development [@gamma_design_1995], and extended into related domains [@daigneau_service_2011; @lasater_design_2010; @ackerman_patterns-based_2010; @schwinn_design_2005; @hohpe_enterprise_2003], for use in documenting *named* data curation *problems*, *solutions*, and *consequences* that provide *descriptions of generalized data components that are customized to solve a general design problem in a particular context* (adapted from [@gamma_design_1995, section 1.1]). 
-=======
 The application of the concept of agile data curation design patterns is based upon the concept initially developed for object oriented software development [@gamma_design_1995], and extended into related domains [@daigneau_service_2011; @lasater_design_2010; @ackerman_patterns-based_2010; @schwinn_design_2005; @hohpe_enterprise_2003], for use in documenting common *named* data curation *problems*, *solutions*, and *consequences* that provide *descriptions of generalized data components that are customized to solve a general design problem in a particular context* (adapted from [@gamma_design_1995, section 1.1]). 
->>>>>>> .merge_file_XJigUD
 
 The conceptual model that the research team has developed for mapping research data curation functional requirements into design patterns represents a combination of specific research activities that have data-related components (as exemplified in Figure 1) and linkages between those components as envisioned by a model such as the *Open Archival Information System* (OAIS - [@book_reference_2012;@_iso_2012; @oclc_open_2014] - Figure 2). In particular, the research team is currently developing a model for collecting and synthesizing data curation case studies that can be used as exemplars for identifying existing design patterns or developing new ones that are relevant in data curation.
 
-![Intersection of Research Lifecycle [@_how_2014] and Data Curation Lifecycle Actions [@digital_curation_centre_dcc_dcc_nd] illustrating high-level research activities that involve data-related functions.](Research-DataLifecycleIntegration.png){ width=5in }
+![Intersection of Research Lifecycle [@_how_2014] and Data Curation Lifecycle Actions [@digital_curation_centre_dcc_dcc_nd] illustrating high-level research activities that involve data-related functions.](Research-DataLifecycleIntegration.png)
 
 The process that the research team proposed in support of the identification and, when needed, development of agile data curation design patterns consists of the following steps:
 
@@ -153,12 +133,6 @@ The process that the research team proposed in support of the identification and
 4. Develop RFC design pattern proposals for review and comment by the research data management community (e.g. RDA, ESIP Federation, IDCC participants, ...)
 5. Integrate feedback on proposed design patterns into final versions for publication. 
 
-<<<<<<< .merge_file_iRORRr
-=======
-
- 
-
->>>>>>> .merge_file_XJigUD
 
 # Conclusions
 
