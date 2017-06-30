@@ -110,9 +110,9 @@ For the development of an agile curation conceptual model and potential design p
 
 # Discussion
 
-1. Concept mapping (Josh - 800-1000) - have done this, capture here. Talk about vetting of this so far by community. i.e. the papers / posters / sessions we've had to date.  What have we learned. What are the areas of push-back?
+## Concept mapping (Josh - 800-1000) - have done this, capture here. Talk about vetting of this so far by community. i.e. the papers / posters / sessions we've had to date.  What have we learned. What are the areas of push-back?
 
-2. Case studies (Chris - 800-1000)
+## Case studies (Chris - 800-1000)
  
 As part of our research to date we solicited examples from the data curation communities as part of sessions at the AGU Fall 2015 AGU, Summer 2016 ESIP Meeting, SciDataCon 2016, and RDA P6?, P8. (add specifics on these) The examples presented during these panels included agile approaches to managing a physical sample repository, ORNL, and ex3. <!--add cites?--> These preliminary cases facilitated the development of a template to collect data about the cases systematically. Our original goal was to develop more uniform information from a set of agile example cases currently in practice. The uniform information will facilitate the analysis to identify similarities and dissimilarities across the cases. Relevant dimensions for the case study analysis  include domain and type of data, data curation requirements, metadata and documentation, processes descriptions, and outcomes. The template has been converted into an online survey. This survey was made available to solicit inputs from the research and curation communities. (Assuming we have data, do we want to make it available?)
 
@@ -121,7 +121,7 @@ However, during our initial phases conceptualizing the research we came to reali
 [Say something about the validity of a case study approach?]
 
 
-3. Proposed design pattern process (Karl - 800-1000) - 
+## Proposed design pattern process (Karl - 800-1000) - 
 
 The application of the concept of agile data curation design patterns is based upon the concept initially developed for object oriented software development [@gamma_design_1995], and extended into related domains [e.g. @daigneau_service_2011; @lasater_design_2010; @ackerman_patterns-based_2010; @schwinn_design_2005; @hohpe_enterprise_2003]. The conceptual model that the research team has developed for mapping research data curation functional requirements into design patterns represents a combination of specific research activities that have data-related components (as exemplified in Figure 1) and linkages between those components as envisioned by a model such as the *Open Archival Information System* (OAIS - [@book_reference_2012;@_iso_2012; @oclc_open_2014] - Figure 2). In particular, the research team has developed a model for collecting^[https://www.surveymonkey.com/r/agile_case] and synthesizing (through qualitative analysis methods) data curation case studies that can be used as exemplars for identifying existing design patterns or developing new ones that are relevant in data curation.
 
