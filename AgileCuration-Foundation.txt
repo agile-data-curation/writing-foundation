@@ -139,6 +139,7 @@ The process that the research team has developed in support of the identificatio
 # Conclusions
 
 These are our conclusions:
+
 1. Not all data creation is created equal. Traditional curation models don't take into account, long-tail versus big science continuum.
 2. There is an analogous curation continuum from none to ad hoc to light touch to highly engineered.
 3. There is some correlation between the two dimensions. <!-- Is there a map or matrix in here? Do we dare to map things like archives/repos, e.g. Dryad, NASA DAACS, NCEI, institutional repositories, NEON, etc.??-->

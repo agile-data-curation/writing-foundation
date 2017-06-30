@@ -65,23 +65,24 @@ investment in and importance of research data as an asset for doing
 research, for evaluating current research results, and as a resource for
 new science, funding agencies, publishers and some research teams have
 instituted research data management practices. These practices are often
-aligned with a wide variety of data life cycle models that embody a
-circular process of activities that include creation, assessment,
-documentation, use, preservation, discovery and reuse. While these data
-lifecycle approaches are well aligned with the documentation and
-preservation of research data - particularly as they have been primarily
-developed by organizations with a mandate to provide for the
-preservation of data, this linear (or more appropriately cyclical) model
-does not necessarily focus on the level of effort required throughout
-the processes embodied in the lifecycle or the lowering of barriers to
-subsequent reuse. The agile data curation conceptual model outlined
-provides is proposed as a starting point for community consideration a
-core set of values, principles and in the long-run recommended practices
-in the form of research data management and {[}agile{]} curation design
-patterns that may be used to define project-specific activities that are
-likely to both meet the immediate needs of data producing research
-projects while also maximizing the net value of data produced by those
-projects for future research, education, and applications.
+aligned with a data life cycle models, of which there are many, that
+embody a circular process of activities that include creation,
+assessment, documentation, use, preservation, discovery and reuse. While
+these data lifecycle approaches are well aligned with the documentation
+and preservation of research data - particularly as they have been
+primarily developed by organizations with a mandate to provide for the
+preservation of data - this linear (or more appropriately cyclical)
+model does not necessarily focus on the level of effort required
+throughout the processes embodied in the lifecycle or the lowering of
+barriers to subsequent reuse. The agile data curation conceptual model
+outlined is proposed as a starting point for community consideration of
+a core set of values, principles and in the long-run recommended
+practices in the form of research data management and {[}agile{]}
+curation design patterns that may be used to define project-specific
+activities that are likely to both meet the immediate needs of data
+producing research projects while also maximizing the net value of data
+produced by those projects for future research, education, and
+applications.
 \end{abstract}
 
 \section{Overview}\label{overview}
@@ -98,7 +99,7 @@ these challenges translate into an increasing need to develop effective
 and efficient data management and curation strategies that align with a
 set of shared values and principles that inform management and curation
 objectives, and implement processes that are well documented and
-portable across specific data management projects.
+portable across data management projects.
 
 The concept of \emph{agile data curation} outlined in this paper
 represents an effort by the authors to develop a conceptual model for
@@ -124,16 +125,17 @@ and publishers \autocites{_availability_2016}[
 ]{public_library_of_science_plos_data_2016} for planning for and
 executing effective data management, sharing, and curation. While these
 requirements have resulted in more explicit documentation of
-\emph{plans} for data curation and management, it remains unclear what
-impact they are having on \emph{practice}.
+\emph{plans} for data curation and management, the impact of these
+requirements on \emph{practice} has been found to be limited,
+particularly in reference to data sharing \autocite{mauthner_open_2013}.
 
-When considering the practice of research data management and curation
+When considering the practice of research data management and curation,
 the priorities (implicit or explicit) of the diverse participants in the
 process must be identified and addressed. The observations made by
 Greene and Meissner \autocite*{greene_more_2005} relating to the backlog
-challenges faced by archivists: ``if we are going to effectively serve
+challenges faced by archivists - ``if we are going to effectively serve
 our users, we must adopt a much more flexible conception of what it
-means to ``process'' a collection'' \autocite[pp.~233]{greene_more_2005}
+means to `process' a collection,'' \autocite[pp.~233]{greene_more_2005}
 can easily be applied to the challenges faced by researchers and data
 curators. In an environment of limited funding for research, the
 technical, semantic, and social challenges identified by Michener
@@ -151,7 +153,7 @@ to forest ecosystem resources remain relevant today, as do the seven
   under-funded, resulting in data losses and delays in translating data
   to information.
 \item
-  Develop and adhere to data and metadata standards and best use
+  Develop and adhere to \emph{data and metadata standards} and best use
   protocols.
 \item
   Provide funding for \emph{data rejuvenation} (e.g., adding Global
@@ -176,6 +178,12 @@ to forest ecosystem resources remain relevant today, as do the seven
   Emphasis added.]{michener_role_1999}
 \end{enumerate}
 \end{quote}
+
+In particular, these `habits' 1) acknowledge that effective information
+management requires investment, both in terms of planning and funding;
+2) require ongoing evaluation of data value and potential use; and 3)
+reflect involvement by diverse stakeholders beyond the research teams
+and data curators with whom they (may or may not) be working.
 
 While the increasing requirements for planning and execution of
 systematic data management and curation have resulted in additional
@@ -202,10 +210,10 @@ incremental delivery of value through an iterative development and
 investment process. From the discussions held with researchers and data
 managers participating in meetings of the Federation of Earth Science
 Information Partners (ESIP), American Geophysical Union (AGU), the
-Research Data Alliance (RDA), and SciDataCon the authors have had an
-opportunity to explore and refine some of the key concepts relating to
-agile data curation as it is both similar and dissimilar from agile
-software development.
+Research Data Alliance (RDA), SciDataCon, and the International Digital
+Curation Conference, the authors have had an opportunity to explore and
+refine some of the key concepts relating to agile data curation as it is
+both similar and dissimilar from agile software development.
 
 Figure 1 illustrates a number of the shared and different
 characteristics that have been identified that may be ascribed to the
@@ -222,17 +230,17 @@ projects for which there are not dedicated data management and curation
 resources, dark data in Heidorn's \autocite*{heidorn_shedding_2008}
 terminology. While there are exemplars of highly successful software
 development and data curation practices at all points along the
-continuum illustrated in Figure 1, the adoption of agile software
-development practices in the middle range of the continuum has allowed
-some projects to achieve success where they may have otherwise been
-unsuccessful, and likewise data curation activities that have
-successfully moved from the right end of the continuum towards the
-center have also provided measurable value to both the current projects
-that are creating the data and to future users of the data produced by
-those projects. It is these successful data curation projects that
-exemplify an emerging set of values, principles and practices of agile
-data curation that provide the foundation for the design pattern
-activity of the research team that is described below.
+continuum illustrated in Figure 1, the implicit or explicit adoption of
+agile software development practices in the middle range of the
+continuum has allowed some projects to achieve success where they may
+have otherwise been unsuccessful, and likewise data curation activities
+that have successfully moved from the right end of the continuum towards
+the center have also provided measurable value to both the current
+projects that are creating the data and to future users of the data
+produced by those projects. It is these successful data curation
+projects that exemplify an emerging set of values, principles and
+practices of agile data curation that provide the foundation for the
+design pattern activity of the research team that is described below.
 
 \begin{figure}[htbp]
 \centering
@@ -255,25 +263,35 @@ the conceptual model in the abstract. We compare and contrast the
 current generally accepted models which guide data curation with the key
 concepts of agile development. At the same time we are engaging the data
 curation community to understand their views about and approaches to
-agile data curation concepts and models. The goal is to map the zen of
-agile software to data curation. The application of agile principles for
-software development to other domains is not unprecedented. Applications
-outside of software engineering includes manufacturing, supply chain
-management, and aid relief. {[}add citations{]} Second, we use an
-applied approach to developing an understanding of agile data curtation
-through examples. This second activity gathers case study data that
-illustrate extant practices that reasonably fit the ethos (read
-`conceptual framework') of agile curation. Cases are self-selected at
-this point by the submitter as an example of an agile curation process.
-Third, we develop agile curation design patterns based on the agile
-curation conceptual model and the principles and practices distilled
-from the case studies.
-
-** note: design patterns as an alternative conceptual model for ``best
-practices'' {[}granular{]} and/or lifecycle {[}abstract{]}
-approaches\ldots{}do we explain/define design patterns somewhere? Folks
-from the curation community might only understand the concept from an
-intuitive standpoint. **
+agile data curation concepts and models. The goal is to map the
+conceptual model of agile software to data curation while explicitly
+addressing areas of divergence between the two activities. The
+application of agile principles for software development to other
+domains is not unprecedented. Applications outside of software
+engineering includes manufacturing, supply chain management, and aid
+relief. {[}add citations{]} Second, we will use an applied approach to
+developing an understanding of agile data curtation through examples.
+This second activity gathers case study data that illustrate extant
+practices that reasonably fit the ethos (read `conceptual framework') of
+agile curation. Cases are self-selected at this point by the submitter
+as an example of an agile curation process. Third, we will develop agile
+curation design patterns based on the agile curation conceptual model
+and the principles and practices distilled from the case studies. In the
+context of this work, data curation design patterns are intended to
+document common \emph{named} data curation \emph{problems},
+\emph{solutions}, and \emph{consequences} that provide
+\emph{descriptions of generalized data components that are customized to
+solve a general design problem in a particular context} (adapted from
+\autocite[section 1.1]{gamma_design_1995}). Following their use in
+software engineering, data curation design patterns are intended to
+provide a consistently named and described strategy for solving a
+clearly defined and generalized data management and curation problem. As
+a complement to this concept of design patterns, the authors also intend
+to identify common data curation ``antipatterns'' in which (as defined
+by Long) ``An''antipattern" is similar to a pattern except that it is an
+obvious but wrong solution to a problem. Antipatterns have been tried
+over and over again with much the same result: failure." \autocite[pg.
+68]{long_software_2001}
 
 \section{Discussion}\label{discussion}
 
@@ -289,21 +307,21 @@ intuitive standpoint. **
 \end{enumerate}
 
 As part of our research to date we solicited examples from the data
-curation communities as part of panel sessions at the Fall 201\# AGU,
-Summer 2016 ESIP Meeting, and RDA P\#. (add specifics on these) The
-examples presented during these panels included agile approaches to
-managing a physical sample repository, ex2, and ex3. These preliminary
-cases facilitated the development of a template to collect data about
-the cases systematically. Our original goal was to develop more uniform
-information from a set of agile example cases currently in practice. The
-uniform information will facilitate the analysis to identify
-similarities and dissimilarities across the cases. Relevant dimensions
-for the case study analysis include domain and type of data, data
-curation requirements, metadata and documentation, processes
-descriptions, and outcomes. The template has been converted into an
-online an online survey. This survey was made available to solicit
-inputs from the research and curation communities. (Assuming we have
-data, do we want to make it available?)
+curation communities as part of sessions at the AGU Fall 2015 AGU,
+Summer 2016 ESIP Meeting, SciDataCon 2016, and RDA P6?, P8. (add
+specifics on these) The examples presented during these panels included
+agile approaches to managing a physical sample repository, ORNL, and
+ex3. These preliminary cases facilitated the development of a template
+to collect data about the cases systematically. Our original goal was to
+develop more uniform information from a set of agile example cases
+currently in practice. The uniform information will facilitate the
+analysis to identify similarities and dissimilarities across the cases.
+Relevant dimensions for the case study analysis include domain and type
+of data, data curation requirements, metadata and documentation,
+processes descriptions, and outcomes. The template has been converted
+into an online survey. This survey was made available to solicit inputs
+from the research and curation communities. (Assuming we have data, do
+we want to make it available?)
 
 However, during our initial phases conceptualizing the research we came
 to realize that it would be beneficial to develop a richer understanding
@@ -331,13 +349,7 @@ The application of the concept of agile data curation design patterns is
 based upon the concept initially developed for object oriented software
 development \autocite{gamma_design_1995}, and extended into related
 domains
-\autocites{daigneau_service_2011}{lasater_design_2010}{ackerman_patterns-based_2010}{schwinn_design_2005}{hohpe_enterprise_2003},
-for use in documenting common \emph{named} data curation
-\emph{problems}, \emph{solutions}, and \emph{consequences} that provide
-\emph{descriptions of generalized data components that are customized to
-solve a general design problem in a particular context} (adapted from
-\autocite[section 1.1]{gamma_design_1995}).
-
+\autocites[e.g.][]{daigneau_service_2011}{lasater_design_2010}{ackerman_patterns-based_2010}{schwinn_design_2005}{hohpe_enterprise_2003}.
 The conceptual model that the research team has developed for mapping
 research data curation functional requirements into design patterns
 represents a combination of specific research activities that have
@@ -345,10 +357,11 @@ data-related components (as exemplified in Figure 1) and linkages
 between those components as envisioned by a model such as the \emph{Open
 Archival Information System} (OAIS -
 \autocites{book_reference_2012}{_iso_2012}{oclc_open_2014} - Figure 2).
-In particular, the research team is currently developing a model for
-collecting and synthesizing data curation case studies that can be used
-as exemplars for identifying existing design patterns or developing new
-ones that are relevant in data curation.
+In particular, the research team has developed a model for
+collecting\footnote{https://www.surveymonkey.com/r/agile\_case} and
+synthesizing (through qualitative analysis methods) data curation case
+studies that can be used as exemplars for identifying existing design
+patterns or developing new ones that are relevant in data curation.
 
 \begin{figure}[htbp]
 \centering
@@ -359,7 +372,7 @@ Data Curation Lifecycle Actions
 research activities that involve data-related functions.}
 \end{figure}
 
-The process that the research team proposed in support of the
+The process that the research team has developed in support of the
 identification and, when needed, development of agile data curation
 design patterns consists of the following steps:
 
@@ -368,14 +381,12 @@ design patterns consists of the following steps:
 \itemsep1pt\parskip0pt\parsep0pt
 \item
   Reach out to the research data curation community to seek specific
-  research data problems for which effective solutions have been
-  developed. {[}Note: add concept of \emph{anti-patterns} using
-  references from https://en.wikipedia.org/wiki/Anti-pattern as an entry
-  point{]}
+  research data problems for which effective (or inefective) solutions
+  have been developed.
 \item
   From this compilation of case studies begin the development of a
   catalog of \emph{common} problems and solutions from which candidate
-  patterns can be identified
+  patterns and antipatterns can be identified
 \item
   Compile a catalog of existing design patterns against which the
   identified problems and solutions can be compared to identify
@@ -383,7 +394,7 @@ design patterns consists of the following steps:
 \item
   Develop RFC design pattern proposals for review and comment by the
   research data management community (e.g.~RDA, ESIP Federation, IDCC
-  participants, \ldots{})
+  participants)
 \item
   Integrate feedback on proposed design patterns into final versions for
   publication.
@@ -391,7 +402,21 @@ design patterns consists of the following steps:
 
 \section{Conclusions}\label{conclusions}
 
-These are our conclusions
+These are our conclusions: 1. Not all data creation is created equal.
+Traditional curation models don't take into account, long-tail versus
+big science continuum. 2. There is an analogous curation continuum from
+none to ad hoc to light touch to highly engineered. 3. There is some
+correlation between the two dimensions. 4. There is an implicit{[}?{]}
+split/disconnect between the research lifecycle and the curation life
+cycle. Data often thrown over the fence to repositories. 5. Agile
+curation provides a means to connect the research lifecycle and the data
+lifecycle in a more explicit and robust way. 6. The curation / data
+creation disconnect also hints at the how much curation is needed to
+overcome data entropy. 7. ?
+
+Next steps: 1. Initiate systematic effort to get more case study/survey
+data 2. Analyze case data 3. Develop draft design patterns / present to
+community
 
 \section{Acknowledgements}\label{acknowledgements}
 
